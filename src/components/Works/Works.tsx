@@ -13,6 +13,8 @@ export default function Works() {
                 <div className={s.works}>
                     <Work title={'Social network'} description={'brief description of the project'}/>
                     <Work title={'Todolist'} description={'brief description of the project'}/>
+                    <Work title={'Todolist'} description={'brief description of the project'}/>
+                    <Work title={'Todolist'} description={'brief description of the project'}/>
 
 
 

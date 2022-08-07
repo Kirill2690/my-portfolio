@@ -1,5 +1,5 @@
 .worksBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: #789a9a;
 }
 .worksContainer{
@@ -14,7 +14,8 @@
     border:1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .title{
     background-color: #9c5fa0;
