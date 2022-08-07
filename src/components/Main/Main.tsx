@@ -12,7 +12,7 @@ export default function Main() {
                     <p>Fronted Developher.</p>
                 </div>
                 <div className={s.mainPhoto}>
-
+<img src=''/>
             </div>
         </div>
         </div>
