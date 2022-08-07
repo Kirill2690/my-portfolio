@@ -9,11 +9,12 @@ export default function Main() {
                 <div className={s.mainText}>
                     <span>Hi There</span>
                     <h1>I'm Kirill Muraviev</h1>
-                    <p>Fronted Developher</p>
+                    <p>Fronted Developher.</p>
                 </div>
-                <div className={s.mainPhoto}></div>
-                <img src=''/>
+                <div className={s.mainPhoto}>
+
             </div>
+        </div>
         </div>
     );
 }
