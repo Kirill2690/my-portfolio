@@ -15,7 +15,7 @@ export default function Footer() {
                     <div className={s.social}></div>
                 </div>
 
-                <span className={s.footerText}>© 2012 All Rights Reserved.</span>
+                <span className={s.footerText}>© 2022 All Rights Reserved.</span>
 
             </div>
         </div>

@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/Works";
 import Contacts from "./components/Contacts/Contacts";
-import Footer from "./components/Form/Footer";
+import Footer from "./components/Footer/Footer";
 export default function App() {
     return (
         <div className='App'>

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +30,8 @@
     <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Form/Footer.module.css" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Form/Footer.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Skills/Skills.module.css" root0="FORCE_HIGHLIGHTING" />
@@ -75,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659859351012</updated>
       <workItem from="1659859353634" duration="16985000" />
-      <workItem from="1659885811119" duration="608000" />
+      <workItem from="1659885811119" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -84,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659886044969</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1659886424693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886424694</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1659886501704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886501704</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
