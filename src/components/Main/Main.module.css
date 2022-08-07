@@ -1,0 +1,14 @@
+.main{
+    height: 100vh;
+    background-color: rgb(71, 255, 151);
+}
+
+.mainText{
+    width: 300px;
+    background-color: rgb(206, 224, 222);
+}
+.mainPhoto{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
