@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +67,23 @@
       <recent name="$PROJECT_DIR$/src/components/Skills/Skill" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659859351012</updated>
       <workItem from="1659859353634" duration="16985000" />
-      <workItem from="1659885811119" duration="5591000" />
+      <workItem from="1659885811119" duration="6424000" />
+      <workItem from="1660671627463" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -122,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659890730175</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix">
+      <created>1659891471344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659891471344</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
