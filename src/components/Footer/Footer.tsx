@@ -1,23 +1,28 @@
 import React from 'react'
-import s from './Footer.module.css'
-
-import classes from "../../common/Container.module.css";
+import s from './Footer.module.scss'
+import {contactsData} from "../../common/data/contacts";
 
 
 export default function Footer() {
     return (
         <div className={s.footerBlock}>
-            <div className={`${classes.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Kirill Muraviev</h2>
-                <div className={s.socialContainer}>
-                    <div className={s.social}></div>
-                    <div className={s.social}></div>
-                    <div className={s.social}></div>
-                </div>
-
-                <span className={s.footerText}>© 2022 All Rights Reserved.</span>
-
+            <div className={s.container}>
+                <div className={s.author}>
+                <h2>Kirill Muraviev</h2>
             </div>
-        </div>
+                <div className={s.footerContacts}>
+                    {contactsData.map(contact =>
+                        <a  href={contact.link} target={'_blank'} rel="noopener noreferrer">
+                            <img src={contact.logo} className={s.footerItem} alt={'logo'}/>
+                        </a>
+                    )}
+                </div>
+                <div className={s.copyright}>© 2022 All Rights Reserved.</div>
+            </div>
+            </div>
+
+
+
     );
 }
+

@@ -1,35 +1,49 @@
-.work{
-    width: 250px;
-    background-color: rgb(255, 255, 255);
+.work {
+    width:300px;
+    background-color: black;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.img_container{
-height: 200px;
-    width: 100%;
-    background-color: coral;
+
+.img_container {
+    min-height: 300px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-   /* background-image:url("https://cdn-icons-png.flaticon.com/512/25/25231.png") ;*/
-    background-size: cover;
+     background-size: cover;
     background-position: center;
-    border:1px solid;
+    background-repeat: no-repeat;
+
 }
 
-.link{
+.link {
     text-decoration: none;
     user-select: none;
-    background: gray;
+    color: white;
 
 }
 
-.title{
-    border:1px solid;
+.projectInfo{
+    padding: 25px 20px;
 }
 
-.description{
-    border:1px solid;
+.title {
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 1px;
+    margin: 0 0 2px;
+    color: #fff;
+}
+
+.description {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #fff;
+
+
 
 }

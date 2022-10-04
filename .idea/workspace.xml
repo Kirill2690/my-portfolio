@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="fix">
+    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="fix footer min-height Footer.module.css">
+      <change afterPath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/data/contacts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/data/skills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/menu/BurgerNav.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Nav/menu/BurgerNav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/7T9364v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/GitHub.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Gmail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/axios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/formik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/js.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/material-ui.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/my_photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/postman.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/react-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/redux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/redux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/rest-api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/sass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/social-network.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/storybook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/tumblr_pey2rxzl1J1w3y4ilo1_r2_540.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Container.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Works.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Works.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +68,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -24,9 +81,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/node_modules/react-scripts/lib/react-app.d.ts" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Footer/Footer.module.scss" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Footer/Footer.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +93,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="2D1GoEILMIA3B7Lyfp8e83ZrprW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,31 +103,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/varvara/it-incubator/my-portfolio/src/components/Form&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/varvara/it-incubator/my-portfolio/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/varvara/it-incubator/my-portfolio/src/components/Nav/menu",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Users/varvara/it-incubator/my-portfolio/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Nav/menu" />
+      <recent name="$PROJECT_DIR$/src/common/components/title" />
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/components/Form" />
       <recent name="$PROJECT_DIR$/src/components/Contact" />
-      <recent name="$PROJECT_DIR$/src/components/Works" />
-      <recent name="$PROJECT_DIR$/src/components/Works/Work" />
-      <recent name="$PROJECT_DIR$/src/components/Skills/Skill" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common" />
+      <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -78,9 +142,31 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
       </list>
     </recent_temporary>
   </component>
@@ -94,7 +180,16 @@
       <updated>1659859351012</updated>
       <workItem from="1659859353634" duration="16985000" />
       <workItem from="1659885811119" duration="6424000" />
-      <workItem from="1660671627463" duration="259000" />
+      <workItem from="1660671627463" duration="1825000" />
+      <workItem from="1661422537057" duration="1796000" />
+      <workItem from="1662905733027" duration="188000" />
+      <workItem from="1664548938939" duration="6462000" />
+      <workItem from="1664606816708" duration="27483000" />
+      <workItem from="1664737716005" duration="964000" />
+      <workItem from="1664738685800" duration="6379000" />
+      <workItem from="1664746340814" duration="5879000" />
+      <workItem from="1664904714703" duration="2755000" />
+      <workItem from="1664911141566" duration="5379000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -145,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659891471344</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fix footer min-height Footer.module.css">
+      <created>1660671918402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660671918402</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +267,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="fix footer min-height Footer.module.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix footer min-height Footer.module.css" />
   </component>
 </project>

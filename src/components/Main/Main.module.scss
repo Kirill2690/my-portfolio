@@ -1,0 +1,96 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.mainBlock {
+  min-height: 100vh;
+  @include flex(row, center, center, nowrap);
+  padding: 100px 0;
+  background-image: url('../../images/tumblr_pey2rxzl1J1w3y4ilo1_r2_540.gif');
+
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .3;
+  }
+
+  .container {
+    @include container();
+    @include flex(row, space-around, center, wrap);
+
+
+    .greeting {
+      @include flex(column, flex-start, flex-start, nowrap);
+      color: white;
+      width: 300px;
+      margin: 0 0 30px;
+      font-weight: 300;
+      text-transform: capitalize;
+      font-size: 26px;
+      line-height: 1.2;
+      letter-spacing: 5px;
+      position: relative;
+
+
+      span {
+        font-size: 16px;
+
+
+        &:nth-child(2) {
+          @include text($titleFontFamily, 50px, 1.2, 400);
+          letter-spacing: 5px;
+          margin: 10px 0;
+          color: #dc965a;
+
+
+          span {
+            @include text($titleFontFamily, 50px, 1.2, 700);
+            letter-spacing: 5px;
+            position: relative;
+            z-index: 0;
+            display: inline-block;
+            color: #dc965a;
+
+
+          }
+        }
+
+        &:nth-child(3) {
+          span {
+            @include text($textFontFamily, 20px, 1.8, 400);
+            margin: 0;
+          }
+        }
+      }
+
+      @media screen and (max-width: 1143px) {
+        align-items: center;
+      }
+    }
+
+    .photo {
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width: 1143px) {
+        margin-top: 50px;
+      }
+
+      .image {
+        height: 350px;
+        width: 300px;
+        @include bgSettings();
+        background-image: url('../../images/my_photo.jpg');
+        background-position: 80% 0;
+        @media screen and (max-width: 600px) {
+          height: 360px;
+          width: 260px;
+
+        }
+
+
+      }
+    }
+  }
+}

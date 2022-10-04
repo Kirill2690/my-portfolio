@@ -1,0 +1,17 @@
+
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.header {
+    @include flex(row, flex-end, center, nowrap);
+    height: 80px;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
+    z-index: 1;
+@media screen and (max-width: 600px) {
+    height: 50px;
+}
+}

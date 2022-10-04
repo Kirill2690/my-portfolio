@@ -1,0 +1,26 @@
+.title {
+  margin: 0 0 30px;
+  font-family: NeueMontreal;
+  color: #dc965a;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  position: relative;
+}
+
+.title h2 {
+  margin: 0;
+}
+.title::after{
+  content: '';
+  position: absolute;
+  background: darkorange;
+  width: 55px;
+  height: 1px;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%,50%);
+
+}

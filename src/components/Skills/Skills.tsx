@@ -1,19 +1,25 @@
 import React from 'react'
-import s from './../Skills/Skills.module.css'
-import Skill from "./Skill/Skill"
+import s from './Skills.module.css'
+import {Skill} from "./Skill/Skill"
 import classes from "../../common/Container.module.css";
+import {skillsData} from "../../common/data/skills";
+import {Title} from "../../common/components/title/Title";
 
 
 export default function Skills() {
     return (
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id={'skills'}>
             <div className={`${classes.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Skills</h2>
+              <Title text={'Skills'}/>
                 <div className={s.skills}>
-                    <Skill title={'JS'} description={'there will be a text about JS skills'}/>
-                    <Skill title={'CSS'} description={'there will be a text about CSS skills'}/>
-                    <Skill title={'React'} description={'there will be a text about React skills'}/>
-                    <Skill title={'Redux'} description={'there will be a text about Redux skills'}/>
+                    {skillsData.map(s =>
+                        <Skill key={s.id}
+                               id={s.id}
+                               title={s.title}
+                               description={s.description}
+                               backgroundImage={s.backgroundImage}
+                        />
+                    )}
 
 
 

@@ -1,22 +1,21 @@
-.worksBlock{
+.worksBlock {
     min-height: 100vh;
-    background-color: #789a9a;
+    background-color: black;
+    padding: 70px 0;
 }
-.worksContainer{
+
+.worksContainer {
     flex-direction: column;
     justify-content: flex-start;
-
-
-
+    flex-wrap: nowrap;
 }
 
-.works{
-    border:1px solid;
+.works {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
+    align-items:flex-start ;
 }
-.title{
-    background-color: #9c5fa0;
-}
+

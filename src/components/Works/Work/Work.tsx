@@ -1,22 +1,35 @@
 import s from './Work.module.css'
 import React from "react";
 
+
 type WorksType = {
     title: string,
     description: string
+    id: string
+    backgroundImage: string
+    repoLink: string
+    demoLink: string
 }
 
-export default function Work(props: WorksType) {
+export const  Work:React.FC<WorksType>= ({title,description,backgroundImage,demoLink,repoLink})=>{
     return (
         <div className={s.work}>
-            <div className={s.img_container}>
-                <a href='' className={s.link}>Look</a>
+            <div className={s.img_container} style={{backgroundImage}}>
+                <a href={demoLink} className={s.link} target={'_blank'} rel="noopener noreferrer">Look
+                    project</a>
+                <a href={repoLink} className={s.link} target={'_blank'} rel="noopener noreferrer">Look
+                    code</a>
             </div>
-                <h3 className={s.title}>{props.title}</h3>
+            <div className={s.projectInfo}>
+                <h3 className={s.title}>{title}</h3>
                 <span className={s.description}>
-        {props.description}
+        {description}
              </span>
             </div>
+
+
+
+        </div>
 
 
     )

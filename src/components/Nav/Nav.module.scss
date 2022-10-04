@@ -1,0 +1,26 @@
+@import '../../common/styles/variables';
+@import '../../common/styles/mixins';
+
+.nav {
+  width: 340px;
+  @include flex(row, space-between, stretch, nowrap);
+
+  a {
+    @include text($titleFontFamily, 16px, 1.2, 400);
+    color: $textColor;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+      color: #dc965a;
+    }
+  }
+
+  .active {
+    color: #dc965a;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
+}
