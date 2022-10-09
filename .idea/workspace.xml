@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add idea in gitIgnore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +144,10 @@
       <workItem from="1664746340814" duration="5879000" />
       <workItem from="1664904714703" duration="2755000" />
       <workItem from="1664911141566" duration="6185000" />
-      <workItem from="1664917443921" duration="11000" />
+      <workItem from="1664917443921" duration="790000" />
+      <workItem from="1665151596501" duration="252000" />
+      <workItem from="1665152556036" duration="96000" />
+      <workItem from="1665337971228" duration="5655000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -208,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664917314395</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add idea in gitIgnore">
+      <created>1664917461223</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664917461223</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

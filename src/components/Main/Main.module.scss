@@ -29,13 +29,13 @@
       font-weight: 300;
       text-transform: capitalize;
       font-size: 26px;
-      line-height: 1.2;
+      line-height: 1.1;
       letter-spacing: 5px;
       position: relative;
 
 
       span {
-        font-size: 16px;
+        font-size: 25px;
 
 
         &:nth-child(2) {
@@ -59,7 +59,7 @@
 
         &:nth-child(3) {
           span {
-            @include text($textFontFamily, 20px, 1.8, 400);
+            @include text($textFontFamily, 20px, 1.1, 400);
             margin: 0;
           }
         }

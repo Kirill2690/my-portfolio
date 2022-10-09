@@ -7,8 +7,8 @@ export default function Main() {
         <div  className={s.mainBlock} id={'main'}>
             <div className={s.container}>
                     <div className={s.greeting}>
-                        <span>Hi There</span>
-                        <span>I'm Kirill <span>Muraviev</span></span>
+                        <span>Hi, I'm</span>
+                        <span>Kirill<span>Muraviev</span></span>
                         <span> <ReactTypingEffect text={'Front-end Developer'}/></span>
                     </div>
                         <div className={s.photo}>
