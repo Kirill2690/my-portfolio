@@ -1,5 +1,6 @@
 import counter from '../../images/counter.png';
 import social_network from '../../images/social-network.webp';
+import storybook_project from '../../images/storybook_project.png'
 
 export const projectsData = [
    /* {
@@ -25,7 +26,17 @@ export const projectsData = [
         backgroundImage: `url(${counter})`,
         repoLink: 'https://github.com/Kirill2690/counter_and_redux',
         demoLink: 'https://kirill2690.github.io/counter_and_redux/'
-    }
+    },
+    {
+        id: '3',
+        title: 'My storybook components',
+        description: 'Technology stack: ReactJS, TypeScript, Storybook, CSS',
+        backgroundImage: `url(${storybook_project})`,
+        repoLink: 'https://github.com/Kirill2690/my-storybook.git',
+        demoLink: ''
+    },
+
+
 
 
 
