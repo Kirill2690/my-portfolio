@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f86ce563.css",
-    "main.js": "/my-portfolio/static/js/main.59e1bd68.js",
+    "main.js": "/my-portfolio/static/js/main.858fa9ed.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/tumblr_pey2rxzl1J1w3y4ilo1_r2_540.gif": "/my-portfolio/static/media/tumblr_pey2rxzl1J1w3y4ilo1_r2_540.ff3ab1a32c49aae1b32f.gif",
     "static/media/my_photo.jpg": "/my-portfolio/static/media/my_photo.cdda0c1ed7857f12bd30.jpg",
-    "static/media/storybook_project.png": "/my-portfolio/static/media/storybook_project.c15424b37d01847a62f1.png",
     "static/media/social-network.webp": "/my-portfolio/static/media/social-network.7429455ab41dea3febf0.webp",
     "static/media/counter.png": "/my-portfolio/static/media/counter.4a9059ec454c3c6d4bef.png",
     "static/media/telegram_logo.png": "/my-portfolio/static/media/telegram_logo.28f6fc50e59d1a9a75cb.png",
+    "static/media/storybook_image.jpg": "/my-portfolio/static/media/storybook_image.e09e8aa6a958e23a0dea.jpg",
     "static/media/postman.svg": "/my-portfolio/static/media/postman.648705b5f6469f0767a4736d07313ffe.svg",
     "static/media/sass.svg": "/my-portfolio/static/media/sass.02dda4cb70eb34023b9a05eecd50e50e.svg",
     "static/media/react-1.svg": "/my-portfolio/static/media/react-1.fdd3331d261ad6d5e1c92448737aa2aa.svg",
@@ -22,11 +22,11 @@
     "static/media/material-ui.svg": "/my-portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/js.svg": "/my-portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
     "main.f86ce563.css.map": "/my-portfolio/static/css/main.f86ce563.css.map",
-    "main.59e1bd68.js.map": "/my-portfolio/static/js/main.59e1bd68.js.map",
+    "main.858fa9ed.js.map": "/my-portfolio/static/js/main.858fa9ed.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f86ce563.css",
-    "static/js/main.59e1bd68.js"
+    "static/js/main.858fa9ed.js"
   ]
 }
