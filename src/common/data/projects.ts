@@ -16,7 +16,7 @@ export const projectsData = [
         description: 'Technology stack: ReactJS, TypeScript, Redux, RestAPI, Axios, Redux-Thunk, React-Router-Dom, Redux-Form, Formik, Ant Design',
         backgroundImage: `url(${social_network})`,
         repoLink: 'https://github.com/Kirill2690/social_network',
-        demoLink: 'https://zouker.github.io/social_network/'
+        demoLink: 'https://Kirill2690.github.io/social_network'
     },
     {
         id: '2',

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add idea in gitIgnore">
+    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="fixed components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Works/Works.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Works.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +140,10 @@
       <workItem from="1664917443921" duration="790000" />
       <workItem from="1665151596501" duration="252000" />
       <workItem from="1665152556036" duration="96000" />
-      <workItem from="1665337971228" duration="5655000" />
+      <workItem from="1665337971228" duration="5890000" />
+      <workItem from="1665854410701" duration="98000" />
+      <workItem from="1665866887261" duration="13000" />
+      <workItem from="1666099922693" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -226,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664917461223</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixed components">
+      <created>1665345015586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665345015586</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +252,7 @@
     <MESSAGE value="fix footer min-height Footer.module.css" />
     <MESSAGE value="Fixed:&#10;Contacts.tsx&#10;Main.tsx and oder" />
     <MESSAGE value="add idea in gitIgnore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add idea in gitIgnore" />
+    <MESSAGE value="fixed components" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed components" />
   </component>
 </project>

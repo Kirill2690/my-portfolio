@@ -1,7 +1,6 @@
 import React from 'react'
 import s from './../Works/Works.module.css'
 import classes from "../../common/Container.module.css";
-
 import {projectsData} from "../../common/data/projects";
 import {Title} from "../../common/components/title/Title";
 import {Work} from "./Work/Work";
