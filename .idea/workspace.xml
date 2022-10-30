@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="fix bugs">
-      <change afterPath="$PROJECT_DIR$/src/images/storybook_image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skill/Skill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/common" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -179,7 +166,7 @@
       <workItem from="1667153847206" duration="308000" />
       <workItem from="1667154182330" duration="1265000" />
       <workItem from="1667155453948" duration="714000" />
-      <workItem from="1667156172388" duration="4324000" />
+      <workItem from="1667156172388" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -286,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666203607350</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix bugs">
+      <created>1667160723661</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667160723661</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
