@@ -31,7 +31,6 @@
     "tsparticles": "1.41.2",
     "typescript": "^4.4.2",
     "vanta": "^0.5.24",
-    "varta": "^0.1.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
