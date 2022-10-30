@@ -13,8 +13,9 @@
   -o-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
   background: transparent;
-  color:white ;
-  max-width: 170px;
+  color:darkslateblue;
+  font-weight: bold;
+  max-width: 140px;
   margin: 15px auto;
   z-index: 22;
   text-align: center;
@@ -42,7 +43,7 @@
   }
 
   &:hover {
-    color: $textColor;
+    color: darkslateblue;
 
     &::after {
       height: 100%;

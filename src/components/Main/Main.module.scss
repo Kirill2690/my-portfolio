@@ -5,7 +5,6 @@
   min-height: 100vh;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
-  background-image: url('../../images/tumblr_pey2rxzl1J1w3y4ilo1_r2_540.gif');
 
   .particles {
     position: absolute;
@@ -15,6 +14,7 @@
     right: 0;
     opacity: .3;
   }
+
 
   .container {
     @include container();
@@ -69,6 +69,14 @@
         align-items: center;
       }
     }
+    .particles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: .3;
+    }
 
     .photo {
       position: relative;
@@ -80,6 +88,9 @@
       .image {
         height: 350px;
         width: 300px;
+        border-radius: 41% 59% 50% 50% / 33% 45% 55% 67%;
+        background: var(-#dc965a-color);
+        animation: morph 10s linear infinite;
         @include bgSettings();
         background-image: url('../../images/my_photo.jpg');
         background-position: 80% 0;
@@ -89,6 +100,17 @@
 
         }
 
+        @keyframes morph {
+          0%, 100% {
+            border-radius: 69% 31% 30% 67% / 72% 47% 40% 26%;
+          }
+          34% {
+            border-radius: 63% 37% 36% 64% / 51% 45% 55% 49% ;
+          }
+          67% {
+            border-radius: 48% 52% 64% 36% / 30% 30% 70% 70% ;
+          }
+        }
 
       }
     }

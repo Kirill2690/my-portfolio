@@ -1,6 +1,8 @@
 import s from './Work.module.css'
+import styles from '../../../common/components/button/Button.module.scss'
 import React from "react";
 
+const Zoom = require('react-reveal/Zoom')
 
 type WorksType = {
     title: string,
@@ -14,10 +16,11 @@ type WorksType = {
 export const  Work:React.FC<WorksType>= ({title,description,backgroundImage,demoLink,repoLink})=>{
     return (
         <div className={s.work}>
+            <Zoom>
             <div className={s.img_container} style={{backgroundImage}}>
-                <a href={demoLink} className={s.link} target={'_blank'} rel="noopener noreferrer">Look
+                <a href={demoLink} className={styles.button} target={'_blank'} rel="noopener noreferrer">Look
                     project</a>
-                <a href={repoLink} className={s.link} target={'_blank'} rel="noopener noreferrer">Look
+                <a href={repoLink} className={styles.button} target={'_blank'} rel="noopener noreferrer">Look
                     code</a>
             </div>
             <div className={s.projectInfo}>
@@ -26,6 +29,7 @@ export const  Work:React.FC<WorksType>= ({title,description,backgroundImage,demo
         {description}
              </span>
             </div>
+            </Zoom>
 
 
 

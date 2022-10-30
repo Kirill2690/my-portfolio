@@ -23,32 +23,6 @@
 
 }
 
-.link {
-font-family: Poppins, sans-serif;
-    text-decoration: none;
-    letter-spacing: 1px;
-    padding: 7px 20px;
-    cursor: pointer;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-    -moz-transition: all 0.4s ease-in-out 0s;
-    -ms-transition: all 0.4s ease-in-out 0s;
-    -o-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
-    color: white;
-    max-width: 100px;
-    margin: 15px auto;
-    z-index: 22;
-    text-align: center;
-    border-radius: 0;
-    width: 100%;
-    border: none;
-    position: relative;
-    background-color: chocolate;
-}
-:hover{
-   color: wheat;
-}
-
 
 
 .projectInfo{

@@ -5,6 +5,7 @@ import {Title} from "../../common/components/title/Title";
 import {useForm} from "react-hook-form";
 import {Button} from "../../common/components/button/Button";
 
+const Fade = require('react-reveal/Zoom')
 
 
 interface IFormInputs {
@@ -25,6 +26,7 @@ export default function Contacts() {
     }
     return (
         <div className={s.contactsBlock} id={'contacts'}>
+            <Fade right>
             <div className={s.container}>
                 <Title text={'Contacts'}/>
                 <form onSubmit={handleSubmit(onSubmit)} id={'contact-form'} className={s.form}>
@@ -41,7 +43,10 @@ export default function Contacts() {
                     <Button type="submit" buttonTitle={'Send Me ➢ '}/>
 
                 </form>
+
             </div>
+            </Fade>
         </div>
+
     );
 }

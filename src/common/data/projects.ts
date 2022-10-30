@@ -1,6 +1,6 @@
 import counter from '../../images/counter.png';
 import social_network from '../../images/social-network.webp';
-import storybook_project from '../../images/storybook_project.png'
+import storybook_image from '../../images/storybook_image.jpg'
 
 export const projectsData = [
    /* {
@@ -31,7 +31,7 @@ export const projectsData = [
         id: '3',
         title: 'My storybook components',
         description: 'Technology stack: ReactJS, TypeScript, Storybook, CSS',
-        backgroundImage: `url(${storybook_project})`,
+        backgroundImage: `url(${storybook_image})`,
         repoLink: 'https://github.com/Kirill2690/my-storybook.git',
         demoLink: ''
     },
