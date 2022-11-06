@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e23fe028.css",
-    "main.js": "/my-portfolio/static/js/main.051afd50.js",
+    "main.css": "/my-portfolio/static/css/main.f744e8ec.css",
+    "main.js": "/my-portfolio/static/js/main.5529a387.js",
     "static/js/787.cd3f7c9b.chunk.js": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js",
     "static/media/my_photo.jpg": "/my-portfolio/static/media/my_photo.cdda0c1ed7857f12bd30.jpg",
+    "static/media/pizza_logo.png": "/my-portfolio/static/media/pizza_logo.933bc8ff54f924f1b663.png",
     "static/media/social-network.webp": "/my-portfolio/static/media/social-network.7429455ab41dea3febf0.webp",
     "static/media/counter.png": "/my-portfolio/static/media/counter.4a9059ec454c3c6d4bef.png",
     "static/media/telegram_logo.png": "/my-portfolio/static/media/telegram_logo.28f6fc50e59d1a9a75cb.png",
@@ -20,12 +21,12 @@
     "static/media/typescript.svg": "/my-portfolio/static/media/typescript.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
     "static/media/material-ui.svg": "/my-portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/js.svg": "/my-portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
-    "main.e23fe028.css.map": "/my-portfolio/static/css/main.e23fe028.css.map",
-    "main.051afd50.js.map": "/my-portfolio/static/js/main.051afd50.js.map",
+    "main.f744e8ec.css.map": "/my-portfolio/static/css/main.f744e8ec.css.map",
+    "main.5529a387.js.map": "/my-portfolio/static/js/main.5529a387.js.map",
     "787.cd3f7c9b.chunk.js.map": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e23fe028.css",
-    "static/js/main.051afd50.js"
+    "static/css/main.f744e8ec.css",
+    "static/js/main.5529a387.js"
   ]
 }
