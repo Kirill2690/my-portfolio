@@ -1,6 +1,8 @@
 import counter from '../../images/counter.png';
 import social_network from '../../images/social-network.webp';
 import storybook_image from '../../images/storybook_image.jpg'
+import pizza from '../../images/pizza_logo.png'
+
 
 export const projectsData = [
    /* {
@@ -35,6 +37,15 @@ export const projectsData = [
         repoLink: 'https://github.com/Kirill2690/my-storybook.git',
         demoLink: ''
     },
+    {
+        id: '4',
+        title: 'Solo Pizza is an application for delivering delicious pizza in your city.',
+        description: 'Technology stack: ReactJS, TypeScript, SCSS',
+        backgroundImage: `url(${pizza})`,
+        repoLink: 'https://github.com/Kirill2690/pizza-app.git',
+        demoLink: 'https://Kirill2690.github.io/pizza-app'
+    },
+
 
 
 
