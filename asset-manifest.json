@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f744e8ec.css",
-    "main.js": "/my-portfolio/static/js/main.5529a387.js",
+    "main.css": "/my-portfolio/static/css/main.f526ee7e.css",
+    "main.js": "/my-portfolio/static/js/main.7100af55.js",
     "static/js/787.cd3f7c9b.chunk.js": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js",
     "static/media/my_photo.jpg": "/my-portfolio/static/media/my_photo.cdda0c1ed7857f12bd30.jpg",
     "static/media/pizza_logo.png": "/my-portfolio/static/media/pizza_logo.933bc8ff54f924f1b663.png",
@@ -21,12 +21,12 @@
     "static/media/typescript.svg": "/my-portfolio/static/media/typescript.7c2e5f599fa6ccab4be8a590908ec5bb.svg",
     "static/media/material-ui.svg": "/my-portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/js.svg": "/my-portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
-    "main.f744e8ec.css.map": "/my-portfolio/static/css/main.f744e8ec.css.map",
-    "main.5529a387.js.map": "/my-portfolio/static/js/main.5529a387.js.map",
+    "main.f526ee7e.css.map": "/my-portfolio/static/css/main.f526ee7e.css.map",
+    "main.7100af55.js.map": "/my-portfolio/static/js/main.7100af55.js.map",
     "787.cd3f7c9b.chunk.js.map": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f744e8ec.css",
-    "static/js/main.5529a387.js"
+    "static/css/main.f526ee7e.css",
+    "static/js/main.7100af55.js"
   ]
 }
