@@ -13,41 +13,42 @@
   -o-transition: all 0.4s ease-in-out 0s;
   transition: all 0.4s ease-in-out 0s;
   background: transparent;
-  color:darkslateblue;
+  color:white;
   font-weight: bold;
   max-width: 140px;
   margin: 15px auto;
   z-index: 22;
   text-align: center;
-  border-radius: 0;
   width: 100%;
   border: none;
   position: relative;
 
-  &::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 10px;
-    width: 50%;
-    background: $primaryColor;
-    z-index: -1;
-    -webkit-transition: all 0.2s ease-in-out 0s;
-    -moz-transition: all 0.2s ease-in-out 0s;
-    -ms-transition: all 0.2s ease-in-out 0s;
-    -o-transition: all 0.2s ease-in-out 0s;
-    transition: all 0.2s ease-in-out 0s;
-    margin: 0 auto;
-  }
 
-  &:hover {
-    color: darkslateblue;
+&::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 10px;
+   width: 50%;
+   background: $primaryColor;
+   z-index: -1;
+   -webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+   margin: 0 auto;
+ }
 
-    &::after {
-      height: 100%;
-      width: 100%;
-    }
-  }
+&:hover {
+   color: white;
+
+
+&::after {
+   height: 100%;
+   width: 100%;
+ }
+}
 }

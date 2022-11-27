@@ -1,5 +1,5 @@
 .work {
-    width:300px;
+    width: 300px;
     background-color: black;
     flex-direction: column;
     align-items: center;
@@ -23,9 +23,7 @@
 
 }
 
-
-
-.projectInfo{
+.projectInfo {
     padding: 25px 20px;
 }
 
@@ -44,3 +42,30 @@
     font-weight: 400;
     color: #fff;
 }
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    border-radius: 30px !important;
+    width: 110px;
+    height: 20px;
+    background-color: #dc965a !important;
+    margin-top: 45px !important;
+    margin-bottom: 31px !important;
+    text-transform: none !important;
+    font-size: 14px !important;
+    font-weight: 500;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-style: inherit;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+

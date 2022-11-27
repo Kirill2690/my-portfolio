@@ -8,9 +8,7 @@ import emailjs from '@emailjs/browser'
 const Fade = require('react-reveal/Zoom')
 
 
-
-
-export const Contacts=()=> {
+export const Contacts = () => {
     const form = useRef<HTMLFormElement>(null);
 
 
@@ -20,35 +18,30 @@ export const Contacts=()=> {
 
         emailjs.sendForm(
             'service_lg98nsy',
-            'service_lg98nsy',
+            'template_b7sjcgi',
             form.current || '',
             'Mednwvai4zvRamymU'
         )
             .then((res) => {
-                console.log(res.text)
                 form.current && form.current.reset()
-                alert('Your message has been sent successfully!')
-            }, (error) => {
-                console.log(error.text);
-            });
+                alert('Your message has been send')
+            })
     };
     return (
         <div className={s.contactsBlock} id={'contacts'}>
             <Fade right>
-            <div className={s.container}>
-                <Title text={'Contacts'}/>
-                <form onSubmit={sendEmail} id={'contact-form'} className={s.form} ref={form}>
-                    <label htmlFor="name">Name:</label>
-                    <input name='user_name' placeholder={'Name'} type={'text'}
-                           className={s.input} required/>
-                {/*    {emailjs.init.name && <p style={{color: '#fff'}}>Name is required</p>}*/}
-                    <input name="user_email"  placeholder={'E-mail'} type={'text'} className={s.input} required/>
-                    {/*{emailjs.init && <p style={{color: '#fff'}}>E-mail is required</p>}*/}
-                    <textarea placeholder={'Your message'}
-                              className={s.textarea}/>
-                    <Button type="submit" buttonTitle={'Send Me ➢ '}/>
-                </form>
-            </div>
+                <div className={s.container}>
+                    <Title text={'Contacts'}/>
+                    <form onSubmit={sendEmail} id={'contact-form'} className={s.form} ref={form}>
+                        <label htmlFor="name">Name:</label>
+                        <input name='user_name' placeholder={'Name'} type={'text'}
+                               className={s.input} required/>
+                        <input name="user_email" placeholder={'E-mail'} type={'text'} className={s.input} required/>
+                        <textarea placeholder={'Your message'}
+                                  className={s.textarea}/>
+                        <Button type="submit" buttonTitle={'Send Me ➢ '}/>
+                    </form>
+                </div>
             </Fade>
         </div>
 
