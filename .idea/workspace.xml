@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add new project - &quot;Solo pizza&quot;">
+    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:send email">
+      <change afterPath="$PROJECT_DIR$/src/images/cards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/learn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/todolist.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/button/Button.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Works/Work/Work.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <recent name="$PROJECT_DIR$/src/common" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.predeploy">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -117,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -181,7 +177,8 @@
       <workItem from="1667663559682" duration="69000" />
       <workItem from="1667663679559" duration="133000" />
       <workItem from="1667721991080" duration="1944000" />
-      <workItem from="1669546028088" duration="6945000" />
+      <workItem from="1669546028088" duration="7223000" />
+      <workItem from="1673251006048" duration="5400000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -316,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667723204821</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add:send email">
+      <created>1669567375058</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669567375058</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +348,7 @@
     <MESSAGE value="fixed projects.ts" />
     <MESSAGE value="fix bugs" />
     <MESSAGE value="add new project - &quot;Solo pizza&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new project - &quot;Solo pizza&quot;" />
+    <MESSAGE value="add:send email" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:send email" />
   </component>
 </project>
