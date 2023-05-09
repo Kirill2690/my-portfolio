@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:new skill">
+      <change afterPath="$PROJECT_DIR$/src/images/linkedin.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/data/contacts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/contacts.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +181,7 @@
       <workItem from="1675712679796" duration="146000" />
       <workItem from="1683618402821" duration="476000" />
       <workItem from="1683618882322" duration="2183000" />
-      <workItem from="1683631804023" duration="1969000" />
+      <workItem from="1683631804023" duration="2369000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683631685231</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add:new skill">
+      <created>1683641034750</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683641034750</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

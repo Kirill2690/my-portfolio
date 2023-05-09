@@ -1,6 +1,7 @@
 import github from '../../images/GitHub.png'
 import telegram from '../../images/telegram_logo.png'
 import email from '../../images/Gmail.png'
+import linkedin from '../../images/linkedin.svg'
 
 
 export const contactsData = [
@@ -18,6 +19,11 @@ export const contactsData = [
         id: '3',
         link: 'kirillmuravev2690@gmail.com',
         logo: `${email}`,
+    },
+    {
+        id: '4',
+        link: 'https://www.linkedin.com/in/kirill-muraviev-3b7a79261/',
+        logo: `${linkedin}`,
     },
 ]
 
