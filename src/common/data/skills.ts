@@ -12,6 +12,7 @@ import Storybook from '../../images/storybook.svg'
 import GIT from '../../images/git_logo.svg'
 import CSS from '../../images/css3.svg'
 import React_Native from '../../images/react-native.jpg'
+import Redux_Toolkit from '../../images/redux_toolkit.png'
 
 
 
@@ -25,7 +26,7 @@ export const skillsData = [
     {
         id: '2',
         title: 'Redux',
-        description: ' JavaScript library for managing and centralizing application state.',
+        description: 'JavaScript library for managing and centralizing application state.',
         backgroundImage: `url(${Redux})`,
     },
 
@@ -101,6 +102,12 @@ export const skillsData = [
         title: 'React Native',
         description: 'Mobile application platform based on JavaScript.',
         backgroundImage: `url(${React_Native})`,
+    },
+    {
+        id: '15',
+        title: 'Redux Toolkit',
+        description: 'JavaScript library for managing and centralizing application state.',
+        backgroundImage: `url(${Redux_Toolkit})`,
     },
 
 ]

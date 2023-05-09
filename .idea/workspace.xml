@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:new project">
-      <change afterPath="$PROJECT_DIR$/src/images/react-native.jpg" afterDir="false" />
+    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:new skill">
+      <change afterPath="$PROJECT_DIR$/src/images/React_native.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/redux_toolkit.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/skills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,8 @@
       <workItem from="1669546028088" duration="7223000" />
       <workItem from="1673251006048" duration="5804000" />
       <workItem from="1675712679796" duration="146000" />
-      <workItem from="1683618402821" duration="397000" />
+      <workItem from="1683618402821" duration="476000" />
+      <workItem from="1683618882322" duration="2015000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -330,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673278082180</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add:new skill">
+      <created>1683618817503</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683618817503</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +369,7 @@
     <MESSAGE value="add new project - &quot;Solo pizza&quot;" />
     <MESSAGE value="add:send email" />
     <MESSAGE value="add:new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:new project" />
+    <MESSAGE value="add:new skill" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:new skill" />
   </component>
 </project>
