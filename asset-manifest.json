@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.f526ee7e.css",
-    "main.js": "/my-portfolio/static/js/main.7bc92a8f.js",
+    "main.js": "/my-portfolio/static/js/main.219bd61f.js",
     "static/js/787.cd3f7c9b.chunk.js": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js",
     "static/media/my_photo.jpg": "/my-portfolio/static/media/my_photo.cdda0c1ed7857f12bd30.jpg",
+    "static/media/react-native.jpg": "/my-portfolio/static/media/react-native.a30f8bbd347924ace1b7.jpg",
     "static/media/pizza_logo.png": "/my-portfolio/static/media/pizza_logo.933bc8ff54f924f1b663.png",
     "static/media/social-network.webp": "/my-portfolio/static/media/social-network.7429455ab41dea3febf0.webp",
     "static/media/counter.png": "/my-portfolio/static/media/counter.4a9059ec454c3c6d4bef.png",
@@ -24,11 +25,11 @@
     "static/media/material-ui.svg": "/my-portfolio/static/media/material-ui.456bfb02539777f812137c514d397868.svg",
     "static/media/js.svg": "/my-portfolio/static/media/js.1192a303c7e00b85f5dedb939fd9a088.svg",
     "main.f526ee7e.css.map": "/my-portfolio/static/css/main.f526ee7e.css.map",
-    "main.7bc92a8f.js.map": "/my-portfolio/static/js/main.7bc92a8f.js.map",
+    "main.219bd61f.js.map": "/my-portfolio/static/js/main.219bd61f.js.map",
     "787.cd3f7c9b.chunk.js.map": "/my-portfolio/static/js/787.cd3f7c9b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f526ee7e.css",
-    "static/js/main.7bc92a8f.js"
+    "static/js/main.219bd61f.js"
   ]
 }
