@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:new skill">
-      <change afterPath="$PROJECT_DIR$/src/images/React_native.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/redux_toolkit.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/skills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +178,8 @@
       <workItem from="1673251006048" duration="5804000" />
       <workItem from="1675712679796" duration="146000" />
       <workItem from="1683618402821" duration="476000" />
-      <workItem from="1683618882322" duration="2015000" />
+      <workItem from="1683618882322" duration="2183000" />
+      <workItem from="1683631804023" duration="1969000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -339,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683618817503</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add:new skill">
+      <created>1683631685231</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683631685231</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
