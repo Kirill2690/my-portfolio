@@ -59,11 +59,4 @@ export const projectsData = [
         demoLink: 'https://Kirill2690.github.io/pizza-app'
     },
 
-
-
-
-
-
-
-
 ]

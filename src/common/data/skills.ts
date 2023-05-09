@@ -11,11 +11,7 @@ import MaterialUI from '../../images/material-ui.svg'
 import Storybook from '../../images/storybook.svg'
 import GIT from '../../images/git_logo.svg'
 import CSS from '../../images/css3.svg'
-
-
-
-
-
+import React_Native from '../../images/react-native.jpg'
 
 
 
@@ -32,6 +28,7 @@ export const skillsData = [
         description: ' JavaScript library for managing and centralizing application state.',
         backgroundImage: `url(${Redux})`,
     },
+
     {
         id: '3',
         title: 'TypeScript',
@@ -98,6 +95,12 @@ export const skillsData = [
         title: 'GIT',
         description: 'DevOps tool used for source code management.',
         backgroundImage: `url(${GIT})`,
+    },
+    {
+        id: '14',
+        title: 'React Native',
+        description: 'Mobile application platform based on JavaScript.',
+        backgroundImage: `url(${React_Native})`,
     },
 
 ]

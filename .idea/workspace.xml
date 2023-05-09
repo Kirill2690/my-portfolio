@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:send email">
-      <change afterPath="$PROJECT_DIR$/src/images/cards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/learn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/todolist.jpeg" afterDir="false" />
+    <list default="true" id="126242c7-927a-4ce8-8cd5-7cfa15c88301" name="Changes" comment="add:new project">
+      <change afterPath="$PROJECT_DIR$/src/images/react-native.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/data/skills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/data/skills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -178,7 +179,9 @@
       <workItem from="1667663679559" duration="133000" />
       <workItem from="1667721991080" duration="1944000" />
       <workItem from="1669546028088" duration="7223000" />
-      <workItem from="1673251006048" duration="5400000" />
+      <workItem from="1673251006048" duration="5804000" />
+      <workItem from="1675712679796" duration="146000" />
+      <workItem from="1683618402821" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1659886044969</created>
@@ -320,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669567375058</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add:new project">
+      <created>1673278082180</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673278082180</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,6 +359,7 @@
     <MESSAGE value="fix bugs" />
     <MESSAGE value="add new project - &quot;Solo pizza&quot;" />
     <MESSAGE value="add:send email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add:send email" />
+    <MESSAGE value="add:new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:new project" />
   </component>
 </project>
