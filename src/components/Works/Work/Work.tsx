@@ -1,5 +1,4 @@
 import s from './Work.module.css'
-import styles from '../../../common/components/button/Button.module.scss'
 import React from "react";
 
 const Zoom = require('react-reveal/Zoom')
